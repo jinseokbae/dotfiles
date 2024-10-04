@@ -267,3 +267,6 @@ fi
 
 # miniconda3
 export PATH=$PATH:/home/jinseokbae/miniconda3/bin
+
+# bindkey
+bindkey -e
