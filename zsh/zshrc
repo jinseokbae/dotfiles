@@ -275,5 +275,5 @@ bindkey -e
 export PYTHONBREAKPOINT="pdb.set_trace"
 
 # Left control to behave as escape
-# Note this feature is not available on Wayland
+# Note this feature is not available on Wayland, make sure you are using Xorg
 xcape -e 'Control_L=Escape'
