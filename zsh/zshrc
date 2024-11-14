@@ -273,3 +273,7 @@ bindkey -e
 
 # Python breakpoint
 export PYTHONBREAKPOINT="pdb.set_trace"
+
+# Left control to behave as escape
+# Note this feature is not available on Wayland
+xcape -e 'Control_L=Escape'
